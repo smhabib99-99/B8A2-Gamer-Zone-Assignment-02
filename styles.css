@@ -150,13 +150,14 @@ main {
 }
 
 
-.banner-section-div{
+.banner-section-div {
     /* margin-top: 20px; */
     /* padding-top: 20px; */
     padding-bottom: 40px;
     margin-bottom: 40px;
 }
-.banner-head-parent{
+
+.banner-head-parent {
     /* margin-top: 20px; */
     /* padding-bottom: 20px; */
     margin-bottom: 40px;
@@ -164,7 +165,8 @@ main {
     max-width: 400px;
 
 }
-.banner-click-parent{
+
+.banner-click-parent {
     padding-bottom: 20px;
     height: 100px;
     max-width: 400px;
@@ -196,10 +198,12 @@ main {
     margin-top: 0px;
     padding-bottom: 10px;
 }
-.banner-click-parent{
+
+.banner-click-parent {
     margin-top: 20px;
     padding-top: 20px;
 }
+
 .banner-click {
     display: flex;
     align-items: center;
@@ -307,10 +311,169 @@ main {
     border: #FFFFFF;
 }
 
-.banner-button{
+.banner-button {
     padding-bottom: 280px;
 }
+
 /* banner section css codes end here */
+
+
+/* Funny Games css codes start here */
+/* Funny Games css codes start here */
+
+.funny-games-div {
+    text-align: center;
+    /* margin: 0px auto; */
+}
+
+.online-games-head {
+    color: #0B0223;
+    /* text-align: right; */
+    /* font-family: Work Sans; */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    /* line-height: normal; */
+
+    /* line-height: normal; */
+}
+
+.color-funny {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* font-family: Work Sans; */
+    font-size: 48px;
+    /* font-style: normal; */
+    font-weight: 700;
+}
+
+.online-games-description {
+    color: #534C64;
+    text-align: center;
+    /* font-family: Work Sans; */
+    font-size: 18px;
+    /* font-style: normal; */
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+.funny-games-image {
+    display: flex;
+    justify-content: center;
+    /* align-items:flex-start; */
+    /* margin: 10px; */
+}
+
+.img1 {
+    margin: 10px;
+    width: 342px;
+    height: 400px;
+    /* flex-shrink: 0; */
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.img2 {
+    margin: 10px;
+    width: 342px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.img3 {
+    margin: 10px;
+    width: 342px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.img4 {
+    margin: 10px;
+    width: 342px;
+    height: 400px;
+    /* flex-shrink: 0; */
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.funny-games-image-description {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-justify: auto; */
+    /* text-align: center; */
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.des1 {
+    padding-left: 20px;
+    margin-left: 80px;
+    /* margin: 4px; */
+    margin: auto;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 150% */
+    width: 342px;
+}
+
+.des2 {
+    padding-right: 0px;
+    margin-left: 10px;
+    margin: auto;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    width: 342px;
+    /* 150% */
+}
+
+.des3 {
+    margin-right: 60px;
+    padding-right: 2px;
+    margin: auto;
+    color: #534C64;
+    /* font-family: Work Sans; */
+    font-size: 20px;
+    /* font-style: normal; */
+    font-weight: 500;
+    line-height: 30px;
+    width: 244px;
+    /* 150% */
+}
+
+.des4 {
+    margin: auto;
+    padding-right: 50px;
+    width: 342px;
+    color: #534C64;
+    /* font-family: Work Sans; */
+    font-size: 20px;
+    /* font-style: normal; */
+    font-weight: 500;
+    line-height: 30px;
+    /* 150% */
+}
+
+/* Funny Games css codes end here */
 
 
 /* Responsive Media @media screen Query codes Start here  */
