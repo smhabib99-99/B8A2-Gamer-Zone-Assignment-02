@@ -16,17 +16,26 @@
 /* All Shared Styles codes ends here */
 
 /* styles related to nav */
+
+main {
+    width: 1920px;
+    height: 5927px;
+    /* background-color: #3C354F; */
+    background-color: rgba(114, 11, 105, 0.062);
+}
+
 .navigation {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 10px auto;
 }
 
 .nav-head {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 200px;
     /* margin: 0px auto; */
     /* margin-left: 10px; */
     /* margin-left: 240px; */
@@ -51,8 +60,10 @@
 
 .nav-menus {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     text-decoration: none;
+    padding-right: 180px;
 }
 
 .nav-menus-about {
@@ -125,6 +136,181 @@
 .nav-menus-icon {
     display: flex;
 }
+
+/* banner section css codes start here */
+/* banner section css codes start here */
+
+.banner-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    /* border: 4px solid green; */
+    /* overflow: auto; */
+}
+
+
+.banner-section-div{
+    /* margin-top: 20px; */
+    /* padding-top: 20px; */
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+.banner-head-parent{
+    /* margin-top: 20px; */
+    /* padding-bottom: 20px; */
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    max-width: 400px;
+
+}
+.banner-click-parent{
+    padding-bottom: 20px;
+    height: 100px;
+    max-width: 400px;
+    /* margin-bottom: 20px; */
+}
+
+.banner-h3 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+.banner-head {
+    text-align: center;
+    /* justify-items: center; */
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* padding-top: 40px; */
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+.banner-click-parent{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.banner-click {
+    display: flex;
+    align-items: center;
+    /* margin-top: 20px; */
+    padding-top: 20px;
+}
+
+.banner-click-icon {
+    width: 24px;
+    height: 24px;
+    color: #0B0223;
+}
+
+.banner-click-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: lowercase;
+    padding-right: 145px;
+    padding-top: 0px;
+}
+
+
+.banner-download {
+    display: flex;
+    align-items: center;
+}
+
+.banner-download-icon {
+    width: 24px;
+    height: 24px;
+    /* flex-shrink: 0; */
+}
+
+.banner-download-description {
+    color: #534C64;
+    /* font-family: Work Sans; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: normal; */
+    padding-right: 200px;
+}
+
+
+
+
+.banner-supported-games {
+    display: flex;
+    align-items: center;
+}
+
+.banner-supported-games-icon {
+    width: 24px;
+    height: 24px;
+    /* flex-shrink: 0; */
+    color: #0B0223;
+}
+
+.banner-supported-games-description {
+    color: #534C64;
+    /* font-family: Work Sans; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: normal; */
+}
+
+.banner-sign-in {
+    /* display: inline-flex; */
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+
+    color: #FFF;
+    /* font-family: Work Sans; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: normal; */
+    text-transform: uppercase;
+    border: #FFFFFF;
+}
+
+.banner-go-rogue {
+    /* display: inline-flex; */
+    padding: 21px 40px;
+    /* align-items: flex-start; */
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+
+    color: #FFF;
+    /* font-family: Work Sans; */
+    font-size: 20px;
+    /* font-style: normal; */
+    font-weight: 600;
+    /* line-height: normal; */
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: #FFFFFF;
+}
+
+.banner-button{
+    padding-bottom: 280px;
+}
+/* banner section css codes end here */
 
 
 /* Responsive Media @media screen Query codes Start here  */
