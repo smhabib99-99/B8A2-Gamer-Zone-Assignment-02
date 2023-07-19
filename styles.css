@@ -520,26 +520,93 @@ main {
     /* 166.667% */
 }
 
-.play-image-div{
+.play-image-div {
     position: relative;
 }
 
-.play-girl-image{
+.play-girl-image {
     position: relative;
     /* padding-left: 150px; */
     /* left: 50px; */
     /* margin-left: 150px; */
-    left: 120px;
-    top: 50px;
+    left: 160px;
+    top: 90px;
     z-index: 1;
-
+    width: 318.5px;
+    height: 365.083px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
 }
-.play-boy-image{
+
+.play-boy-image {
     position: relative;
+    width: 634.833px;
+    height: 650px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: url(<path-to-image>), lightgray -7.583px 0px / 102.389% 100% no-repeat;
 }
 
 /* Play Instantly css codes end here */
 
+
+
+/* Play Games Online codes start here */
+/* Play Games Online codes start here */
+
+.play-games {
+    display: flex;
+    justify-content: center;
+    /* justify-items: center; */
+    align-items: center;
+    /* text-align: center; */
+    margin-top: 180px;
+}
+
+.play-games-image-div {
+    position: relative;
+}
+
+.play-games-boy-image {
+    width: 710px;
+    height: 650px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: url(<path-to-image>), lightgray 0px -18.568px / 100% 146.779% no-repeat;
+    position: relative;
+}
+
+.play-games-girl-image {
+    width: 318px;
+    height: 365px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    background: url(<path-to-image>), lightgray -7.209px 0px / 114.78% 100% no-repeat;
+    z-index: 1;
+    right: 180px;
+    top: 150px;
+    position: relative;
+}
+
+.play-games-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-games-description{
+    width: 483px;color: #534C64;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+/* Play Games Online codes end here */
 
 /* Funny Games css codes end here */
 
