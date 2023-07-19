@@ -473,6 +473,74 @@ main {
     /* 150% */
 }
 
+/* Play Instantly css codes start here */
+/* Play Instantly css codes start here */
+.play-instantly-class {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.play-heading {
+    text-align: right;
+    /* font-family: Work Sans; */
+    font-size: 48px;
+    /* font-style: normal; */
+    font-weight: 700;
+    line-height: 60px;
+    /* 125% */
+
+    color: #0B0223;
+    /* font-family: Work Sans; */
+    font-size: 48px;
+    /* font-style: normal; */
+    /* font-weight: 700;
+    line-height: 60px; */
+}
+
+.play-color {
+    background: #F948B2;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.play-description {
+    width: 353px;
+    color: #534C64;
+    text-align: right;
+    /* font-family: Work Sans; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.play-image-div{
+    position: relative;
+}
+
+.play-girl-image{
+    position: relative;
+    /* padding-left: 150px; */
+    /* left: 50px; */
+    /* margin-left: 150px; */
+    left: 120px;
+    top: 50px;
+    z-index: 1;
+
+}
+.play-boy-image{
+    position: relative;
+}
+
+/* Play Instantly css codes end here */
+
+
 /* Funny Games css codes end here */
 
 
