@@ -608,6 +608,19 @@ main {
 }
 /* Play Games Online codes end here */
 
+
+
+
+/* different types of games codes start here */
+/* different types of games codes start here */
+
+.different-games-div{
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* different types of games codes end here */
 /* Funny Games css codes end here */
 
 
