@@ -703,7 +703,8 @@ main {
     border: 2px solid #F948B2;
     border-radius: 50px;
 }
-.action-games-div:hover{
+
+.action-games-div:hover {
     cursor: pointer;
     opacity: .8;
     color: yellow;
@@ -716,7 +717,8 @@ main {
     border: 2px solid #F948B2;
     border-radius: 50px;
 }
-.adventure-games-div:hover{
+
+.adventure-games-div:hover {
     cursor: pointer;
     opacity: .7;
     background-color: yellow;
@@ -729,7 +731,8 @@ main {
     border: 2px solid #F948B2;
     border-radius: 50px;
 }
-.arcade-games-div:hover{
+
+.arcade-games-div:hover {
     cursor: pointer;
     opacity: .8;
     background-color: violet;
@@ -741,7 +744,8 @@ main {
     border: 2px solid #F948B2;
     border-radius: 50px;
 }
-.educational-games-div:hover{
+
+.educational-games-div:hover {
     cursor: pointer;
     opacity: .8;
     background-color: indigo;
@@ -753,7 +757,8 @@ main {
     border: 2px solid #F948B2;
     border-radius: 50px;
 }
-.word-games-div:hover{
+
+.word-games-div:hover {
     cursor: pointer;
     opacity: .8;
     background-color: blueviolet;
@@ -765,7 +770,8 @@ main {
     border: 2px solid #F948B2;
     border-radius: 50px;
 }
-.role-playing-games-div:hover{
+
+.role-playing-games-div:hover {
     cursor: pointer;
     opacity: .8;
     background-color: greenyellow;
@@ -777,7 +783,8 @@ main {
     border: 2px solid #F948B2;
     border-radius: 50px;
 }
-.music-audio-games-div:hover{
+
+.music-audio-games-div:hover {
     cursor: pointer;
     opacity: .8;
     background-color: orange;
@@ -789,7 +796,8 @@ main {
     border: 2px solid #F948B2;
     border-radius: 50px;
 }
-.puzzle-games-div:hover{
+
+.puzzle-games-div:hover {
     cursor: pointer;
     opacity: .8;
     background-color: royalblue;
@@ -801,7 +809,8 @@ main {
     border: 2px solid #F948B2;
     border-radius: 50px;
 }
-.strategy-games-div:hover{
+
+.strategy-games-div:hover {
     cursor: pointer;
     opacity: .8;
     background-color: olive;
@@ -868,6 +877,71 @@ main {
     border-radius: 50px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
+
+
+/* Footer section code goes here */
+/* Footer section code goes here */
+
+footer {
+    background-color: #0B0223;
+}
+
+.footer-heading {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 50px; */
+    padding-top: 70px;
+}
+
+.g-typo-color {
+    text-align: center;
+    /* font-family: Work Sans; */
+    font-size: 45px;
+    /* font-style: normal; */
+    font-weight: 700;
+    /* line-height: normal; */
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.amer-color {
+    color: #FFF;
+    /* font-family: Work Sans; */
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-image {
+    margin-right: 20px;
+    width: 86.041px;
+    height: 40px;
+    /* flex-shrink: 0; */
+}
+
+.about-footer {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    max-width: 800px;
+    text-align: center;
+    margin: 0px auto;
+    color: #FFF;
+    text-align: center;
+    /* font-family: Work Sans; */
+    font-size: 18px;
+    /* font-style: normal; */
+    font-weight: 600;
+    /* line-height: normal; */
+}
+
+/* Footer section code ends here */
+
 
 
 /* different types of games codes end here */
