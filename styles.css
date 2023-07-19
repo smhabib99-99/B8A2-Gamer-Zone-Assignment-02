@@ -418,7 +418,7 @@ main {
 }
 
 .des1 {
-    padding-left: 20px;
+    /* padding-left: 20px; */
     margin-left: 80px;
     /* margin: 4px; */
     margin: auto;
@@ -462,7 +462,7 @@ main {
 
 .des4 {
     margin: auto;
-    padding-right: 50px;
+    /* padding-right: 50px; */
     width: 342px;
     color: #534C64;
     /* font-family: Work Sans; */
@@ -606,6 +606,13 @@ main {
     font-weight: 400;
     line-height: 30px; /* 166.667% */
 }
+
+.funny-games-image-and-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Play Games Online codes end here */
 
 
@@ -614,10 +621,23 @@ main {
 /* different types of games codes start here */
 /* different types of games codes start here */
 
-.different-games-div{
-    margin-top: 250px;
+
+.different-types-games{
+    max-width: 1500px;
     display: flex;
-    justify-content: space-around;
+    margin: 200px auto;
+    flex-wrap: wrap;
+}
+
+.different-games-div{
+    /* margin-top: 450px; */
+    /* margin-left: 150px; */
+    display: flex;
+    max-width: 1550px;
+    justify-content:space-evenly;
+    align-items: self-start;
+    flex-wrap: wrap;
+    margin: 50px auto;
 }
 
 /* different types of games codes end here */
