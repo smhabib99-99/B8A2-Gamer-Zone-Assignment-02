@@ -837,6 +837,9 @@ main {
     font-weight: 600;
     /* line-height: normal; */
 }
+.act-p1:hover{
+    color: #FF42A5;
+}
 
 .act-img2 {
     width: 60px;
@@ -853,6 +856,9 @@ main {
     /* font-style: normal; */
     font-weight: 600;
     /* line-height: normal; */
+}
+.act-p2:hover{
+    color: #FF42A5;
 }
 
 .act-img3 {
@@ -874,6 +880,7 @@ main {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 .act-img4 {
     width: 60px;
