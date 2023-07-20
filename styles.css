@@ -994,9 +994,20 @@ footer {
     /* line-height: normal; */
 }
 
+/* new for mobile responsive flex */
+.mobile-responsive-play-games{
+    flex: display;
+    /* flex-direction: column;
+    flex-direction: wrap; */
+}
 /* Footer section code ends here */
 
-
+.play-games{
+    /* flex-direction: column;
+    position: relative;
+    flex-wrap: wrap; */
+    display: flex;
+}
 
 /* Responsive Media @media screen Query codes Start here  */
 /* Responsive Media @media screen Query codes Start here for mobile devices  */
@@ -1047,5 +1058,59 @@ footer {
         top: 340px;
         left: -130px;
     }
+    /* .play-description{
+        width: 250px;
+        text-align: left;
+    } */
+    .play-games{
+        /* flex-direction: column;
+        position: relative; */
+        /* flex-wrap: wrap; */
+        flex-direction: column-reverse;
+    }
+    .play-heading{
+        margin: 0;
+        padding: 0;
+        height: 50vh;
+        width: 80vw;
+        text-align: center;
+        /* justify-content: center; */
+        justify-items: center;
+        /* justify-self: center; */
+        padding-left: 50px;
+    }
+    .play-games-description{
+        width: 90vw;
+        height: 70vh;
+        text-align: center;
+    }
+    .mobile-responsive-play-games{
+        /* flex: display; */
+        flex-direction: column;
+        flex-direction: wrap;
+    }
+    .play-games-boy-image{
+        padding: 0;
+        margin: 80px;
+        width: 70vw;
+        height: 70vh;
+        left: -20px;
+        /* flex: wrap; */
+        /* flex-direction: column; */
+        right: 0;
+    }
+    .play-games-girl-image{
+        top: -190px;
+        right: -180px;
+        left: 280px;
+        width: 30vw;
+        height: 30vh;
+        position: relative;
+
+    }
+
+
+
+
 }
     
