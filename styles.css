@@ -1292,6 +1292,30 @@ footer {
             flex-direction: column;
         }
 
+        .play-girl-image{
+            left: -170px;
+            top: 760px;
+            /* width: 30vw;
+            height: 30vh; */
+        }
+        .play-boy-image{
+            width: 70vw;
+            left: 80px;
+        }
+
+        .play-games{
+            flex-direction: column-reverse;
+        }
+        .play-games-boy-image{
+            width: 70vw;
+            height: 100%;
+            left: 30px;
+        }
+        .play-games-girl-image{
+            left: 380px;
+            top: -180px;
+        }
+
 
     }
 
