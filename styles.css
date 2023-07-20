@@ -1110,6 +1110,99 @@ footer {
     }
 
 
+    .different-games-div{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        /* grid-area: 300px; */
+        margin: 0;
+        padding: 0;
+        /* max-width: 400px; */
+        /* width: 80vw; */
+        /* height: 60vh; */
+        width: 100%;
+        background-color:none;
+        color: none;
+        border: none;
+    }
+    .action-games-div,
+    .adventure-games-div,
+    .arcade-games-div,
+    .educational-games-div,
+    .word-games-div,
+    .role-playing-games-div,
+    .music-audio-games-div,
+    .puzzle-games-div,
+    .strategy-games-div {
+        /* width: 30vw;
+        height: 30vh; */
+        /* margin: 0;
+        padding: 0; */
+        /* top: 0;
+        left: 0; */
+        width: 60%;
+        border: none;
+        /* color: none;
+        background-color:none; */
+    }
+
+
+    .action-games-div:hover,
+    .adventure-games-div:hover,
+    .arcade-games-div:hover,
+    .educational-games-div:hover,
+    .word-games-div:hover,
+    .role-playing-games-div:hover,
+    .music-audio-games-div:hover,
+    .puzzle-games-div:hover,
+    .strategy-games-div:hover {
+        /* width: 30vw;
+        height: 30vh; */
+        /* margin: 0;
+        padding: 0; */
+        /* top: 0;
+        left: 0; */
+        width: 60%;
+        border: none;
+    }
+    .action-games-div img ,
+    .adventure-games-div img,
+    .arcade-games-div img,
+    .educational-games-div img,
+    .word-games-div img,
+    .role-playing-games-div img,
+    .music-audio-games-div img,
+    .puzzle-games-div img,
+    .strategy-games-div  img{
+        /* width: 30vw;
+        height: 30vh; */
+        /* margin: 0;
+        padding: 0; */
+        /* top: 0;
+        left: 0; */
+        width: 50%;
+        /* border: none; */
+    }
+    /* .action-games-div > div> p,
+    .adventure-games-div,
+    .arcade-games-div,
+    .educational-games-div,
+    .word-games-div,
+    .role-playing-games-div,
+    .music-audio-games-div,
+    .puzzle-games-div,
+    .strategy-games-div 
+        /* width: 30vw;
+        height: 30vh; */
+        /* margin: 0;
+        padding: 0; */
+        /* top: 0;
+        left: 0; */
+
+        
+
+
+
+
 
 
 }
