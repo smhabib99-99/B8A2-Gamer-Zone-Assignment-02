@@ -997,6 +997,8 @@ footer {
     /* font-style: normal; */
     font-weight: 500;
     /* line-height: normal; */
+    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 /* new for mobile responsive flex */
