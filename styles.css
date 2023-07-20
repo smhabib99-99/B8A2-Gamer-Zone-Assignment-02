@@ -901,7 +901,7 @@ main {
 footer {
     background-color: #0B0223;
     margin-bottom: 20px;
-    height: 550px;
+    /* height: 550px; */
 }
 
 .footer-heading {
@@ -1198,7 +1198,39 @@ footer {
         /* top: 0;
         left: 0; */
 
-        
+        .about-footer{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            margin: 0;
+            padding: 0;
+            /* max-width: 70%; */
+            justify-content: center;
+            text-align: center;
+        }
+        .footer-icon{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            /* padding: 0; */
+            left: 50px;
+            width: 100%;
+            margin-left: 50px;
+            /* margin-bottom: 20px;
+            margin-top: 20px; */
+        }
+        .footer-icon img{
+            margin: 12px;
+        }
+
+
+        .footer-terms{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            width: 70%;
+        }
+        .footer{
+            height: 0;
+            width: 0;
+        }
 
 
 
