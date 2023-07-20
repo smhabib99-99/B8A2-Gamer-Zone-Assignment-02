@@ -65,7 +65,8 @@ main {
     text-decoration: none;
     padding-right: 180px;
 }
-.nav-menus > ul{
+
+.nav-menus>ul {
     display: flex;
 
 }
@@ -452,7 +453,8 @@ main {
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
-.img3:hover{
+
+.img3:hover {
     cursor: pointer;
     background-color: black;
     opacity: .3;
@@ -841,7 +843,8 @@ main {
     font-weight: 600;
     /* line-height: normal; */
 }
-.act-p1:hover{
+
+.act-p1:hover {
     color: #FF42A5;
 }
 
@@ -861,7 +864,8 @@ main {
     font-weight: 600;
     /* line-height: normal; */
 }
-.act-p2:hover{
+
+.act-p2:hover {
     color: #FF42A5;
 }
 
@@ -995,14 +999,15 @@ footer {
 }
 
 /* new for mobile responsive flex */
-.mobile-responsive-play-games{
+.mobile-responsive-play-games {
     flex: display;
     /* flex-direction: column;
     flex-direction: wrap; */
 }
+
 /* Footer section code ends here */
 
-.play-games{
+.play-games {
     /* flex-direction: column;
     position: relative;
     flex-wrap: wrap; */
@@ -1012,7 +1017,286 @@ footer {
 /* Responsive Media @media screen Query codes Start here  */
 /* Responsive Media @media screen Query codes Start here for mobile devices  */
 
-@media screen and (max-width:576px){
+@media screen and (max-width:576px) {
+
+    .navigation,
+    .nav-menus,
+    .nav-menus>ul,
+    .funny-games-image-and-description {
+        flex-direction: column;
+    }
+
+    .banner-section {
+        flex-direction: column-reverse;
+    }
+
+    .nav-head,
+    .nav-menus,
+    .banner-button,
+    .nav-menus-about {
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-menus {
+        gap: 20px;
+    }
+
+    .nav-menus>ul {
+        gap: 30px;
+    }
+
+    .banner-section img {
+        width: 100%;
+    }
+
+    .play-instantly-class {
+        flex-wrap: wrap;
+    }
+
+    .play-boy-image {
+        margin: 0;
+        padding: 0;
+        width: 70vw;
+        height: 70vh;
+    }
+
+    .play-girl-image {
+        margin: 0;
+        padding: 0;
+        height: 30vh;
+        width: 30vw;
+        position: relative;
+        top: 340px;
+        left: -130px;
+    }
+
+    /* .play-description{
+        width: 250px;
+        text-align: left;
+    } */
+    .play-games {
+        /* flex-direction: column;
+        position: relative; */
+        /* flex-wrap: wrap; */
+        flex-direction: column-reverse;
+    }
+
+    .play-heading {
+        margin: 0;
+        padding: 0;
+        height: 50vh;
+        width: 80vw;
+        text-align: center;
+        /* justify-content: center; */
+        justify-items: center;
+        /* justify-self: center; */
+        padding-left: 50px;
+    }
+
+    .play-games-description {
+        width: 90vw;
+        height: 70vh;
+        text-align: center;
+    }
+
+    .mobile-responsive-play-games {
+        /* flex: display; */
+        flex-direction: column;
+        flex-direction: wrap;
+    }
+
+    .play-games-boy-image {
+        padding: 0;
+        margin: 80px;
+        width: 70vw;
+        height: 70vh;
+        left: -20px;
+        /* flex: wrap; */
+        /* flex-direction: column; */
+        right: 0;
+    }
+
+    .play-games-girl-image {
+        top: -190px;
+        right: -180px;
+        left: 280px;
+        width: 30vw;
+        height: 30vh;
+        position: relative;
+
+    }
+
+
+    .different-games-div {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* grid-area: 300px; */
+        margin: 0;
+        padding: 0;
+        /* max-width: 400px; */
+        /* width: 80vw; */
+        /* height: 60vh; */
+        width: 100%;
+        background-color: none;
+        color: none;
+        border: none;
+    }
+
+    .action-games-div,
+    .adventure-games-div,
+    .arcade-games-div,
+    .educational-games-div,
+    .word-games-div,
+    .role-playing-games-div,
+    .music-audio-games-div,
+    .puzzle-games-div,
+    .strategy-games-div {
+        /* width: 30vw;
+        height: 30vh; */
+        /* margin: 0;
+        padding: 0; */
+        /* top: 0;
+        left: 0; */
+        width: 60%;
+        border: none;
+        /* color: none;
+        background-color:none; */
+    }
+
+
+    .action-games-div:hover,
+    .adventure-games-div:hover,
+    .arcade-games-div:hover,
+    .educational-games-div:hover,
+    .word-games-div:hover,
+    .role-playing-games-div:hover,
+    .music-audio-games-div:hover,
+    .puzzle-games-div:hover,
+    .strategy-games-div:hover {
+        /* width: 30vw;
+        height: 30vh; */
+        /* margin: 0;
+        padding: 0; */
+        /* top: 0;
+        left: 0; */
+        width: 60%;
+        border: none;
+    }
+
+    .action-games-div img,
+    .adventure-games-div img,
+    .arcade-games-div img,
+    .educational-games-div img,
+    .word-games-div img,
+    .role-playing-games-div img,
+    .music-audio-games-div img,
+    .puzzle-games-div img,
+    .strategy-games-div img {
+        /* width: 30vw;
+        height: 30vh; */
+        /* margin: 0;
+        padding: 0; */
+        /* top: 0;
+        left: 0; */
+        width: 50%;
+        /* border: none; */
+    }
+
+    /* .action-games-div > div> p,
+    .adventure-games-div,
+    .arcade-games-div,
+    .educational-games-div,
+    .word-games-div,
+    .role-playing-games-div,
+    .music-audio-games-div,
+    .puzzle-games-div,
+    .strategy-games-div 
+        /* width: 30vw;
+        height: 30vh; */
+    /* margin: 0;
+        padding: 0; */
+    /* top: 0;
+        left: 0; */
+
+    .about-footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0;
+        padding: 0;
+        /* max-width: 70%; */
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-icon {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* padding: 0; */
+        left: 50px;
+        width: 100%;
+        margin-left: 50px;
+        /* margin-bottom: 20px;
+            margin-top: 20px; */
+    }
+
+    .footer-icon img {
+        margin: 12px;
+    }
+
+
+    .footer-terms {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 70%;
+    }
+
+    .footer {
+        height: 0;
+        width: 0;
+    }
+
+    /* .footer-terms > p{
+            text-align: center;
+
+        } */
+
+    .copyright-description {
+        text-align: center;
+        padding: 40px 80px;
+    }
+}
+
+    /* Responsive for tablet views starts here */
+
+    @media  screen and (min-width: 576px) and (max-width: 992px) {
+
+        .navigation,
+        .nav-head,
+        .nav-menus {
+            padding: 0;
+            margin: 0;
+            padding-left: 0;
+
+        }
+        .heading{
+            padding: 0;
+        }
+        .nav-menus > ul{
+            padding: 0;
+        }
+
+        .banner-section,
+        .funny-games-image-and-description,
+        .play-instantly-class{
+            flex-direction: column;
+        }
+
+
+    }
+
+    /* 
+
     .navigation,
     .nav-menus,
     .nav-menus > ul,
@@ -1058,184 +1342,7 @@ footer {
         top: 340px;
         left: -130px;
     }
-    /* .play-description{
-        width: 250px;
-        text-align: left;
-    } */
-    .play-games{
-        /* flex-direction: column;
-        position: relative; */
-        /* flex-wrap: wrap; */
-        flex-direction: column-reverse;
-    }
-    .play-heading{
-        margin: 0;
-        padding: 0;
-        height: 50vh;
-        width: 80vw;
-        text-align: center;
-        /* justify-content: center; */
-        justify-items: center;
-        /* justify-self: center; */
-        padding-left: 50px;
-    }
-    .play-games-description{
-        width: 90vw;
-        height: 70vh;
-        text-align: center;
-    }
-    .mobile-responsive-play-games{
-        /* flex: display; */
-        flex-direction: column;
-        flex-direction: wrap;
-    }
-    .play-games-boy-image{
-        padding: 0;
-        margin: 80px;
-        width: 70vw;
-        height: 70vh;
-        left: -20px;
-        /* flex: wrap; */
-        /* flex-direction: column; */
-        right: 0;
-    }
-    .play-games-girl-image{
-        top: -190px;
-        right: -180px;
-        left: 280px;
-        width: 30vw;
-        height: 30vh;
-        position: relative;
 
-    }
+*/
 
 
-    .different-games-div{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        /* grid-area: 300px; */
-        margin: 0;
-        padding: 0;
-        /* max-width: 400px; */
-        /* width: 80vw; */
-        /* height: 60vh; */
-        width: 100%;
-        background-color:none;
-        color: none;
-        border: none;
-    }
-    .action-games-div,
-    .adventure-games-div,
-    .arcade-games-div,
-    .educational-games-div,
-    .word-games-div,
-    .role-playing-games-div,
-    .music-audio-games-div,
-    .puzzle-games-div,
-    .strategy-games-div {
-        /* width: 30vw;
-        height: 30vh; */
-        /* margin: 0;
-        padding: 0; */
-        /* top: 0;
-        left: 0; */
-        width: 60%;
-        border: none;
-        /* color: none;
-        background-color:none; */
-    }
-
-
-    .action-games-div:hover,
-    .adventure-games-div:hover,
-    .arcade-games-div:hover,
-    .educational-games-div:hover,
-    .word-games-div:hover,
-    .role-playing-games-div:hover,
-    .music-audio-games-div:hover,
-    .puzzle-games-div:hover,
-    .strategy-games-div:hover {
-        /* width: 30vw;
-        height: 30vh; */
-        /* margin: 0;
-        padding: 0; */
-        /* top: 0;
-        left: 0; */
-        width: 60%;
-        border: none;
-    }
-    .action-games-div img ,
-    .adventure-games-div img,
-    .arcade-games-div img,
-    .educational-games-div img,
-    .word-games-div img,
-    .role-playing-games-div img,
-    .music-audio-games-div img,
-    .puzzle-games-div img,
-    .strategy-games-div  img{
-        /* width: 30vw;
-        height: 30vh; */
-        /* margin: 0;
-        padding: 0; */
-        /* top: 0;
-        left: 0; */
-        width: 50%;
-        /* border: none; */
-    }
-    /* .action-games-div > div> p,
-    .adventure-games-div,
-    .arcade-games-div,
-    .educational-games-div,
-    .word-games-div,
-    .role-playing-games-div,
-    .music-audio-games-div,
-    .puzzle-games-div,
-    .strategy-games-div 
-        /* width: 30vw;
-        height: 30vh; */
-        /* margin: 0;
-        padding: 0; */
-        /* top: 0;
-        left: 0; */
-
-        .about-footer{
-            display: grid;
-            grid-template-columns: repeat(3,1fr);
-            margin: 0;
-            padding: 0;
-            /* max-width: 70%; */
-            justify-content: center;
-            text-align: center;
-        }
-        .footer-icon{
-            display: grid;
-            grid-template-columns: repeat(3,1fr);
-            /* padding: 0; */
-            left: 50px;
-            width: 100%;
-            margin-left: 50px;
-            /* margin-bottom: 20px;
-            margin-top: 20px; */
-        }
-        .footer-icon img{
-            margin: 12px;
-        }
-
-
-        .footer-terms{
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            width: 70%;
-        }
-        .footer{
-            height: 0;
-            width: 0;
-        }
-
-
-
-
-
-
-}
-    
